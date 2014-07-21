@@ -18,5 +18,7 @@
             "CA1006:DoNotNestGenericTypesInMemberSignatures",
             Justification = "Caller doesn't have to cope with nested generics, he is just passing a lambda expression")]
         Expression<Func<T, bool>> Predicate { get; }
+
+        bool IsSatisfiedBy(T item);
     }
 }
