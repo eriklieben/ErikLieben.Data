@@ -59,6 +59,8 @@
     <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Repository\IUnitOfWork.cs" />
     <Compile Include="Repository\IUnitOfWorkAsync.cs" />
+    <Compile Include="Repository\PagedResultFetchingStrategy.cs" />
+    <Compile Include="Repository\SortedFetchingStrategy.cs" />
     <Compile Include="Repository\Specification.cs" />
   </ItemGroup>
   <ItemGroup>
