@@ -54,6 +54,7 @@
     <Compile Include="Projection\MappingPathAttribute.cs" />
     <Compile Include="Projection\ProjectionExpression.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\CombinedFetchingStrategy.cs" />
     <Compile Include="Repository\IFetchingStrategy.cs" />
     <Compile Include="Repository\ISpecification.cs" />
     <Compile Include="Repository\IRepository.cs" />
