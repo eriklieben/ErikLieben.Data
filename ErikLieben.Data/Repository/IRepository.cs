@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
 
-    public interface IRepository<T>
+    public interface IRepository<T> : IEnumerable<T>
         where T : class
     {
         /// <summary>
