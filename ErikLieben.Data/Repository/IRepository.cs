@@ -24,5 +24,7 @@
         void Update(T item);
 
         IEnumerable<T> Find(ISpecification<T> specification, IFetchingStrategy<T> fetchingStrategy);
+
+        T FindFirstOrDefault(ISpecification<T> specification, IFetchingStrategy<T> fetchingStrategy);
     }
 }
