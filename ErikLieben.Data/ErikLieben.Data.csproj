@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factory\IRepositoryFactory.cs" />
     <Compile Include="Mapping\IMapper.cs" />
     <Compile Include="Mapping\Mapper.cs" />
     <Compile Include="Projection\ExpressionCache.cs" />
@@ -60,7 +61,7 @@
     <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Repository\IUnitOfWork.cs" />
     <Compile Include="Repository\IUnitOfWorkAsync.cs" />
-    <Compile Include="Repository\IUnitOfWorkFactory.cs" />
+    <Compile Include="Factory\IUnitOfWorkFactory.cs" />
     <Compile Include="Repository\PagedResultFetchingStrategy.cs" />
     <Compile Include="Repository\SortedFetchingStrategy.cs" />
     <Compile Include="Repository\Specification.cs" />
