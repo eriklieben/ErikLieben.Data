@@ -1,4 +1,15 @@
 ﻿# Erik Lieben Data Toolkit
+## 1.0.4 (2014-07-22)
+- Added paged and sorted fetching strategy
+- Add fetch strategy to combine other strategies
+- Forgot to save vs
+- Add find first or default
+- Update change log
+- Update nuget package
+- Add unit of work factory
+- Fix nuget packages
+- Merge
+
 ## 1.0.3 (2014-07-22)
 - Added paged and sorted fetching strategy
 - Add fetch strategy to combine other strategies
