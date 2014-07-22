@@ -1,4 +1,7 @@
 ﻿# Erik Lieben Data Toolkit
+## 1.0.4 (2014-07-22)
+- Add unit of work factory
+
 ## 1.0.3 (2014-07-22)
 - Added paged and sorted fetching strategy
 - Add fetch strategy to combine other strategies
