@@ -1,4 +1,7 @@
 ﻿# Erik Lieben Data Toolkit
+## 1.0.5 (2014-07-22)
+- Add repository factory
+
 ## 1.0.4 (2014-07-22)
 - Add unit of work factory
 
