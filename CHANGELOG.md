@@ -1,10 +1,5 @@
 ﻿# Erik Lieben Data Toolkit
 ## 1.0.3 (2014-07-22)
-- Fix nuget package second try
-- Refactor repository
-- Add unit of work
-- Extend specification and introduce fetching strategy
-- Make repository enumerable to get all records
 - Added paged and sorted fetching strategy
 - Add fetch strategy to combine other strategies
 - Forgot to save vs
@@ -16,10 +11,6 @@
 - Add unit of work
 - Extend specification and introduce fetching strategy
 - Make repository enumerable to get all records
-- Added paged and sorted fetching strategy
-- Add fetch strategy to combine other strategies
-- Forgot to save vs
-- Add find first or default
 
 ## 1.0.1 (2014-07-21)
 - Added license information to nuget package
