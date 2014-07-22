@@ -1,5 +1,7 @@
-﻿namespace ErikLieben.Data.Repository
+﻿namespace ErikLieben.Data.Factory
 {
+    using Repository;
+
     public interface IUnitOfWorkFactory
     {
         IUnitOfWorkAsync Create<T>() where T : class;
