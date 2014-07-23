@@ -1,4 +1,9 @@
 ﻿# Erik Lieben Data Toolkit
+## 1.0.6 (2014-07-23)
+- Add repository factory
+- Update nuget package
+- Allow casted IQuerable as IEnumerable to be projected
+
 ## 1.0.5 (2014-07-22)
 - Add repository factory
 
