@@ -29,6 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -49,9 +50,9 @@
     <Compile Include="Factory\IRepositoryFactory.cs" />
     <Compile Include="Mapping\IMapper.cs" />
     <Compile Include="Mapping\Mapper.cs" />
-    <Compile Include="Projection\ExpressionCache.cs" />
+    <Compile Include="Projection\ExpressionCacheDictionary.cs" />
     <Compile Include="Projection\IExpressionCache.cs" />
-    <Compile Include="Projection\IQueryableExtensions.cs" />
+    <Compile Include="Projection\ProjectionExtensions.cs" />
     <Compile Include="Projection\MappingPathAttribute.cs" />
     <Compile Include="Projection\ProjectionExpression.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="Repository\IUnitOfWorkAsync.cs" />
     <Compile Include="Factory\IUnitOfWorkFactory.cs" />
     <Compile Include="Repository\PagedResultFetchingStrategy.cs" />
+    <Compile Include="Repository\SortDirection.cs" />
     <Compile Include="Repository\SortedFetchingStrategy.cs" />
     <Compile Include="Repository\Specification.cs" />
   </ItemGroup>

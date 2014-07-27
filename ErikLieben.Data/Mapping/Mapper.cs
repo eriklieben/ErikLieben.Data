@@ -5,13 +5,8 @@
     /// <summary>
     /// Static class to perform mappings
     /// </summary>
-    public sealed class Mapper
+    public static class Mapper
     {
-        private Mapper()
-        {
-
-        }
-
         /// <summary>
         /// Maps this instance.
         /// </summary>

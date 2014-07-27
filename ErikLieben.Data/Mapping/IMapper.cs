@@ -1,4 +1,9 @@
-﻿namespace ErikLieben.Data.Mapping
+﻿// ***********************************************************************
+// <copyright file="IMapper.cs" company="Erik Lieben">
+//     Copyright (c) Erik Lieben. All rights reserved.
+// </copyright>
+// ***********************************************************************
+namespace ErikLieben.Data.Mapping
 {
     /// <summary>
     /// Interface used for mapping

@@ -1,21 +1,23 @@
 ﻿// ***********************************************************************
-// <copyright file="IUnitOfWork.cs" company="Erik Lieben">
+// <copyright file="SortDirection.cs" company="Erik Lieben">
 //     Copyright (c) Erik Lieben. All rights reserved.
 // </copyright>
 // ***********************************************************************
 namespace ErikLieben.Data.Repository
 {
-    using System;
-
     /// <summary>
-    /// Interface IUnitOfWork
+    /// Sorting direction
     /// </summary>
-    public interface IUnitOfWork : IDisposable
+    public enum SortDirection
     {
         /// <summary>
-        /// Commits the work.
+        /// sort ascending
         /// </summary>
-        /// <returns>The number of items committed.</returns>
-        int Commit();
+        Ascending = 0,
+
+        /// <summary>
+        /// sort descending
+        /// </summary>
+        Descending = 1
     }
 }

@@ -1,0 +1,8 @@
+<StyleCopSettings Version="105">
+  <GlobalSettings>
+    <CollectionProperty Name="RecognizedWords">
+      <Value>queryable</Value>
+      <Value>Func</Value>
+    </CollectionProperty>
+  </GlobalSettings>
+</StyleCopSettings>
